@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb619ece-d84f-4933-9e98-ddfc2a975968" name="Default Changelist" comment="Inicio del proyecto 5">
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/scripts/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/44/4470968581ab06cab3885ddc5f6c358e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/54/54b3f71933b5c0b518adf7682281d738" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/6b/6bc09595c8f516a51f0916d2781c2291" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/8c/8c37e403f86e27374a0afe291a4c4651" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/b1/b1d6e14f9664efc15b3316b5f355e8ae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/b5/b54ca6ff84d88222f46b53a28a5eab66" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/bf/bf1b5fa71437c7d82aee682e484f9c41" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/c3/c3e7b15503b821764c6d4359edc6aea4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/cc/cc6425f63d61c4579288f069560d5872" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/ce/ced0a75b987ed8aa04166fd873c1069c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/Artifacts/d5/d5954627eb1f7e55a80edd186046aaf7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-62a9c789037f7874f9a3a2353f96ea28" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-69e584faf916a1a4d8c6b93405999113" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-e626c488b9d04db4b9bb88298fe72820" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.05_quickClick/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.05_quickClick/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb619ece-d84f-4933-9e98-ddfc2a975968" name="Default Changelist" comment="Inicio del proyecto 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614973484020</updated>
-      <workItem from="1614973490536" duration="4870000" />
+      <workItem from="1614973490536" duration="5184000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio del proyecto cinco">
       <created>1614975798442</created>
@@ -91,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614976560991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inicio del proyecto 5">
+      <created>1614978579354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614978579354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
