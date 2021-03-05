@@ -1,69 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb619ece-d84f-4933-9e98-ddfc2a975968" name="Default Changelist" comment="Inicio del proyecto cinco">
+    <list default="true" id="fb619ece-d84f-4933-9e98-ddfc2a975968" name="Default Changelist" comment="Inicio del proyecto 5">
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripts/GameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/44/4470968581ab06cab3885ddc5f6c358e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/54/54b3f71933b5c0b518adf7682281d738" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/6b/6bc09595c8f516a51f0916d2781c2291" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/8c/8c37e403f86e27374a0afe291a4c4651" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/b1/b1d6e14f9664efc15b3316b5f355e8ae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/b5/b54ca6ff84d88222f46b53a28a5eab66" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/bf/bf1b5fa71437c7d82aee682e484f9c41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/c3/c3e7b15503b821764c6d4359edc6aea4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/cc/cc6425f63d61c4579288f069560d5872" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/ce/ced0a75b987ed8aa04166fd873c1069c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/Artifacts/d5/d5954627eb1f7e55a80edd186046aaf7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-62a9c789037f7874f9a3a2353f96ea28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-69e584faf916a1a4d8c6b93405999113" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp/UnityTempFile-e626c488b9d04db4b9bb88298fe72820" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.05_quickClick/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.05_quickClick/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Assets/Scenes/Prototype.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Assets/Scenes/Prototype.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/05/0559ea9e1717e4b83f0ad7b088e474a7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/1a/1adb7ce3568ace400e43fe788fab427f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/2c/2ce09fafc11b48131f1b4d4eedd2b318" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/3c/3cadb982d7c79ddc8763a82f5ee437cb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/48/48873ef9f80196fe0ba3c06482a22ea4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/55/55758dfe5d4cfc7f8c1141ad618e694d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/58/58495e3f06139adbbac84675c3da2580" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/58/589991b2df30503d37a1566cd5545242" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/7c/7ca879d175ae84b2aa38dd5b8048c4d1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/99/99daf60e7f59689b311194fe90bd4365" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/aa/aa1a6a87129b2413ee88c7d22cc79372" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/b0/b0ed2c29ed243562d5c3e16d63264d8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/bd/bdb9e8ddd4420022424108e5b38ecda6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/c1/c1f928778f2464c6068f1f0b40f1ca31" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/c5/c5efd2953bf1e4dd0cdc1e439d7ef906" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/dc/dcc9a3104223ff42fbca452e54a19358" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/e1/e130279b4bb63039c6b354e94ad11966" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/ea/ea7b7d603208a958e8c6faade62c7130" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/f1/f1d41d9a30cf40850a991e2654ab1dfb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/fb/fb757869e38c1331aab984ba4f010754" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/Artifacts/fb/fba2ad00ed99a1d0bddd21bfc82c3206" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/PackageManager/ProjectCache" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/PackageManager/ProjectCache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/PackageManager/ProjectCache.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/PackageManager/ProjectCache.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Rider.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/Unity.Timeline.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ScriptMapper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wildLife/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../wildLife/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,18 +29,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Alexis645-tech/curso-unity-2020" />
+      </set>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/scripts/Target.cs" />
+      <option value="$PROJECT_DIR$/Assets/scripts/GameManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1pLrvc7ppgGnC1Bxq5253L0iGDi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -105,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614973484020</updated>
-      <workItem from="1614973490536" duration="2871000" />
+      <workItem from="1614973490536" duration="4870000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio del proyecto cinco">
       <created>1614975798442</created>
@@ -114,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614975798442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inicio del proyecto 5">
+      <created>1614976560991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614976560991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,8 +109,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Inicio del proyecto cinco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio del proyecto cinco" />
+    <MESSAGE value="Inicio del proyecto 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio del proyecto 5" />
   </component>
 </project>
