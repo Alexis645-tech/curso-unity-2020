@@ -52,17 +52,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Challenge 2\Scripts\SpawnManagerX.cs" />
-     <Compile Include="Assets\Challenge 2\Scripts\DetectCollisionsX.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\PlayerControllerX.cs" />
-     <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\DestroyOutOfBoundsX.cs" />
+     <Compile Include="Assets\Scripts\CheckCollision.cs" />
+     <Compile Include="Assets\Scenes\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Challenge 2\Scripts\DetectCollisionsX.cs" />
+     <Compile Include="Assets\Scripts\SpawnManager.cs" />
+     <Compile Include="Assets\Challenge 2\Scripts\MoveForwardX.cs" />
+     <Compile Include="Assets\Challenge 2\Scripts\SpawnManagerX.cs" />
      <Compile Include="Assets\Scripts\PlayerContoller.cs" />
      <Compile Include="Assets\Scripts\moveForward.cs" />
      <Compile Include="Assets\Scripts\Destroy.cs" />
-     <Compile Include="Assets\Scripts\CheckCollision.cs" />
-     <Compile Include="Assets\Challenge 2\Scripts\MoveForwardX.cs" />
-     <Compile Include="Assets\Scenes\Scripts\PlayerController.cs" />
      <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -286,14 +286,17 @@
  <Reference Include="UnityEditor.UnityConnectModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>D:/Unity projects/wildLife/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>D:/Unity projects/wildLife/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/Unity projects/wildLife/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -640,29 +643,35 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.3f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <Reference Include="Unity.Timeline">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>D:/Unity projects/wildLife/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/wildLife/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
