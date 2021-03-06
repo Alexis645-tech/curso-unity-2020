@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637505685258646854
-    m_Hash: 2693695028
+      ticks: 637506433579714728
+    m_Hash: 1187643365
   m_LockFileStatus:
     m_FilePath: D:/Unity projects/curso-unity-2020/05_quickClick/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637505685285993572
-    m_Hash: 823883655
+      ticks: 637506433595107471
+    m_Hash: 3053835754
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -634,10 +634,12 @@ m_PackageAssets:
         - 1.1.19
         - 1.1.20
         - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.20
         - 1.1.22
-        verified: 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -675,12 +677,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: f04391d9987f4a534f886a9638b011d53e5871d8
         path: 
-    - packageId: com.unity.textmeshpro@3.0.1
+    - packageId: com.unity.textmeshpro@3.0.4
       testable: 0
       isDirectDependency: 1
-      version: 3.0.1
+      version: 3.0.4
       source: 1
-      resolvedPath: D:\Unity projects\curso-unity-2020\05_quickClick\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: D:\Unity projects\curso-unity-2020\05_quickClick\Library\PackageCache\com.unity.textmeshpro@3.0.4
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -818,13 +820,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637314376320000000
+      datePublishedTicks: 637492944820000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
+        revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
         path: 
     - packageId: com.unity.timeline@1.4.5
       testable: 0
