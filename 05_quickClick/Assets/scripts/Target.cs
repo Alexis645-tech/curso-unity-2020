@@ -6,8 +6,8 @@ public class Target : MonoBehaviour
 {
     private Rigidbody _rigidbody;
 
-    private float minForce = 12, maxForce = 20, maxTorque = 10, xRange = 4, ySpawnPos = -6; 
-    
+    private float minForce = 12, maxForce = 20, maxTorque = 10, xRange = 4, ySpawnPos = -6;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +20,7 @@ public class Target : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     /// <summary>
@@ -48,5 +48,18 @@ public class Target : MonoBehaviour
     private Vector3 RandomSpawnPosition()
     {
         return new Vector3(Random.Range(-xRange, xRange), ySpawnPos);
+    }
+
+    private void OnMouseOver()
+    {
+        Destroy(gameObject);
+    }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("KillZone"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
