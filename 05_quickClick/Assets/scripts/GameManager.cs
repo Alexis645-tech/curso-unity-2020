@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targetPrefabs;
 
-    private float spawnRate = 1.0f;
+    private float spawnRate = 1.5f;
 
     public TextMeshProUGUI scoreText;
 
@@ -36,21 +38,24 @@ public class GameManager : MonoBehaviour
     }
 
     public GameState gameState;
-    
-    // Start is called before the first frame update
-    void Start()
+
+    public Button restartButton;
+
+    public GameObject titleScreen;
+
+    /// <summary>
+    /// Método que inicia la partida cambiando el valor del estado del juego
+    /// </summary>
+    /// <param name="difficulty">Número entero que indica la dificultad del juego</param>
+    public void StartGame(int difficulty)
     {
         gameState = GameState.inGame;
+        titleScreen.gameObject.SetActive(false);
+        spawnRate /= difficulty;
         StartCoroutine(SpawnTarget());
         score = 0;
         UpdateScore(0);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    } 
 
     IEnumerator SpawnTarget()
     {
@@ -77,5 +82,11 @@ public class GameManager : MonoBehaviour
     {
         gameState = GameState.gameOver;
         gameOverText.gameObject.SetActive(true);
+        restartButton.gameObject.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
