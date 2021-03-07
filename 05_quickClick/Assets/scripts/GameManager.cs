@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    private const string MAX_SCORE = "Max_Score";
+    
     public List<GameObject> targetPrefabs;
 
     private float spawnRate = 1.5f;
@@ -43,6 +45,15 @@ public class GameManager : MonoBehaviour
 
     public GameObject titleScreen;
 
+    private int numberOfLives = 4;
+
+    public List<GameObject> lives;
+    
+    void Start()
+    {
+        ShowMaxScore();
+    }
+
     /// <summary>
     /// Método que inicia la partida cambiando el valor del estado del juego
     /// </summary>
@@ -52,9 +63,15 @@ public class GameManager : MonoBehaviour
         gameState = GameState.inGame;
         titleScreen.gameObject.SetActive(false);
         spawnRate /= difficulty;
+        numberOfLives -= difficulty;
         StartCoroutine(SpawnTarget());
         score = 0;
         UpdateScore(0);
+        
+        for (int i = 0; i < numberOfLives; i++)
+        {
+            lives[i].SetActive(true);
+        }
     } 
 
     IEnumerator SpawnTarget()
@@ -78,11 +95,39 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Puntuacion: " + score;
     }
 
+    public void ShowMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt(MAX_SCORE, 0);
+        scoreText.text = "Maxima Puntuacion: " + maxScore;
+    }
+
+    private void SetMaxScore()
+    {
+        int maxSocore = PlayerPrefs.GetInt(MAX_SCORE, 0);
+        if (score > maxSocore)
+        {
+            PlayerPrefs.SetInt(MAX_SCORE, score);
+        }
+    }
+    
     public void GameOver()
     {
-        gameState = GameState.gameOver;
-        gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(true);
+        numberOfLives--;
+        if (numberOfLives>=0)
+        {
+            Image heartImage = lives[numberOfLives].GetComponent<Image>();
+            var tempColor = heartImage.color;
+            tempColor.a = 0.3f;
+            heartImage.color = tempColor;
+        }
+        
+        if (numberOfLives<=0)
+        {
+            SetMaxScore();
+            gameState = GameState.gameOver;
+            gameOverText.gameObject.SetActive(true);
+            restartButton.gameObject.SetActive(true);
+        }
     }
 
     public void RestartGame()
