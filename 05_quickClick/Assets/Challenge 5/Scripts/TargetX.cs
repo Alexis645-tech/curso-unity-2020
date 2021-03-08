@@ -34,6 +34,10 @@ public class TargetX : MonoBehaviour
             Destroy(gameObject);
             gameManagerX.UpdateScore(pointValue);
             Explode();
+            if (gameObject.CompareTag("Bad"))
+            {
+                gameManagerX.GameOver();
+            }
         }
                
     }
@@ -61,10 +65,10 @@ public class TargetX : MonoBehaviour
     {
         Destroy(gameObject);
 
-        if (other.gameObject.CompareTag("Sensor") && !gameObject.CompareTag("Bad"))
+        if (other.gameObject.CompareTag("Sensor") && gameObject.CompareTag("Good"))
         {
             gameManagerX.GameOver();
-        } 
+        }
 
     }
 

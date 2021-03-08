@@ -7,7 +7,9 @@ using UnityEngine.UI;
 
 public class GameManagerX : MonoBehaviour
 {
+    private const string MAX_SCORE = "Max_Score";
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI timeText;
     public TextMeshProUGUI gameOverText;
     public GameObject titleScreen;
     public Button restartButton; 
@@ -21,16 +23,37 @@ public class GameManagerX : MonoBehaviour
     private float spaceBetweenSquares = 2.5f; 
     private float minValueX = -3.75f; //  x value of the center of the left-most square
     private float minValueY = -3.75f; //  y value of the center of the bottom-most square
+
+    private float timeLeft;
+    
+    void Start()
+    {
+        ShowMaxScore();
+    }
     
     // Start the game, remove title screen, reset score, and adjust spawnRate based on difficulty button clicked
-    public void StartGame()
+    public void StartGame(int difficulty)
     {
-        spawnRate /= 5;
+        timeLeft = 70-10*difficulty;
+        spawnRate /= difficulty;
         isGameActive = true;
         StartCoroutine(SpawnTarget());
         score = 0;
         UpdateScore(0);
         titleScreen.SetActive(false);
+    }
+
+    void Uptade()
+    {
+        if (isGameActive)
+        {
+            timeLeft -= Time.deltaTime;
+            timeText.SetText("Time: " + Mathf.Round(timeLeft));
+            if (timeLeft<=0)
+            {
+                GameOver();
+            }
+        }
     }
 
     // While game is active spawn a random target
@@ -70,15 +93,31 @@ public class GameManagerX : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
-        scoreText.text = "score";
+        scoreText.text = "score: " + score;
+    }
+    
+    public void ShowMaxScore()
+    {
+        int maxScore = PlayerPrefs.GetInt(MAX_SCORE, 0);
+        scoreText.text = "score: " + maxScore;
+    }
+
+    private void SetMaxScore()
+    {
+        int maxSocore = PlayerPrefs.GetInt(MAX_SCORE, 0);
+        if (score > maxSocore)
+        {
+            PlayerPrefs.SetInt(MAX_SCORE, score);
+        }
     }
 
     // Stop game, bring up game over text and restart button
     public void GameOver()
     {
         gameOverText.gameObject.SetActive(true);
-        restartButton.gameObject.SetActive(false);
+        restartButton.gameObject.SetActive(true);
         isGameActive = false;
+        SetMaxScore();
     }
 
     // Restart game by reloading the scene
