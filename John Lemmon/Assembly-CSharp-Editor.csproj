@@ -293,11 +293,11 @@
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -656,20 +656,29 @@
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Timeline">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -683,41 +692,32 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Monetization">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
- </Reference>
  <Reference Include="com.unity.cinemachine.editor">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>D:/Unity projects/curso-unity-2020/John Lemmon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

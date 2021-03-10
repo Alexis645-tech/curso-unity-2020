@@ -20,9 +20,8 @@ public class PlayerController : MonoBehaviour
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
@@ -36,12 +35,12 @@ public class PlayerController : MonoBehaviour
         _animator.SetBool("isWalking", isWalking);
 
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, moveMent, 
-            turnSpeed * Time.deltaTime, 0f);
+            turnSpeed * Time.fixedDeltaTime, 0f);
 
         rotation = Quaternion.LookRotation(desiredForward);
     }
 
-    void OnAnimatorMove()
+    private void OnAnimatorMove()
     {
         _rigidbody.MovePosition(_rigidbody.position + moveMent * _animator.deltaPosition.magnitude);
         _rigidbody.MoveRotation(rotation);
